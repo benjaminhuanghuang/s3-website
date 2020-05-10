@@ -1,0 +1,12 @@
+{
+  "name": "s3-website",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react-scripts": "3.4.1",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "deploy": "aws s3 sync website/ s3://s3-website"
+  }
+}
